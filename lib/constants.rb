@@ -33,8 +33,8 @@ module Constants
     MAX_SPEED_CMS = MAX_SPEED_KMH * 100 / 3.6
     MIN_SPEED_CMS = MIN_SPEED_KMH * 100 / 3.6
     # Convert to px/s, divide by 60 to get px/tick (60 ticks per second)
-    MAX_SPEED = MAX_SPEED_CMS / CM_PER_PX # ≈ 3.04 px/s
-    MIN_SPEED = MIN_SPEED_CMS / CM_PER_PX # ≈ 0.75 px/s
+    MAX_SPEED = MAX_SPEED_CMS / CM_PER_PX / 60 # ≈ 3.04 px/s
+    MIN_SPEED = MIN_SPEED_CMS / CM_PER_PX / 60# ≈ 0.75 px/s
 
     ACCELERATION = MAX_SPEED / (0.5 * Simulation::TICKS_PER_SECOND)
 
