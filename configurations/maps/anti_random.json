@@ -1,0 +1,32 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "bots": [
+    {"x": 50, "y": 50, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 100, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 150, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 200, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 250, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 300, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 350, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 400, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 450, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 500, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+
+    {"x": 50, "y": 600, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 650, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 700, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 750, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 800, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 850, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 900, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 950, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 1000, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 1050, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0}
+  ],
+  "obstacles": [
+    {"x": 700, "y": 80, "mass": 500, "width": 200, "height": 920, "rotation": 0}
+  ],
+  "station":  {"x": 50, "y": 540, "mass": 500, "width": 20, "height": 20},
+  "target_station": {"x": 1840, "y": 540, "mass": 500, "width": 20, "height": 20, "data": 2}
+}

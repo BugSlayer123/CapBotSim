@@ -1,0 +1,22 @@
+---
+- name: Fetch /experiments folder from remote servers
+  hosts: "{{ target | default('capbot_runners') }}"
+  remote_user: root
+  become: false
+  vars:
+    remote_experiments_path: /root/CapBot/experiments
+
+  tasks:
+    - name: Ensure download_path is provided
+      ansible.builtin.assert:
+        that: download_path is defined
+        fail_msg: "'download_path' variable is required. Pass it using -e download_path=/your/path"
+        success_msg: "download_path is set to {{ download_path }}"
+
+    - name: Synchronize /experiments to local machine
+      ansible.posix.synchronize:
+        mode: pull
+        src: "{{ remote_experiments_path }}/"
+        dest: "{{ download_path }}/"
+        recursive: yes
+        compress: yes

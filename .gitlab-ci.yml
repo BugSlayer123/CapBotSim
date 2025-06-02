@@ -1,0 +1,16 @@
+stages:
+  - lint
+
+rubocop:
+  stage: lint
+  image: ruby:3.3
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+    - gem install bundler
+    - bundle install
+  script:
+    - bundle exec rubocop
+  only:
+    - merge_requests
+    - main

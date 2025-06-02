@@ -1,0 +1,14 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "bots": [
+    {"x": 50, "y": 200, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 300, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 400, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0}
+  ],
+  "station": {"x": 48, "y": 250, "width": 20, "height": 20, "mass": 5, "radius": 20, "data": 1},
+  "obstacles": [
+    {"x": 200, "y": 200, "mass": 500, "width": 20, "height": 200, "rotation": 0}
+  ],
+  "target_station": {"x": 400, "y": 300, "width": 20, "height": 20, "mass": 5}
+}

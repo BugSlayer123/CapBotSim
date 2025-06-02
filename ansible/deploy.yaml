@@ -1,0 +1,42 @@
+---
+- name: Deploy CapBot to servers
+  hosts: "{{ target | default('capbot_runners') }}"
+  remote_user: root
+  become: false
+  vars:
+    local_capbot_path: /home/matz/Documents/Coding/Ruby/Capbot
+    remote_capbot_path: /root/CapBot
+
+  tasks:
+    - name: Copy CapBot directory to remote
+      ansible.posix.synchronize:
+        src: "{{ local_capbot_path }}/"
+        dest: "{{ remote_capbot_path }}/"
+        delete: yes
+        recursive: yes
+        compress: yes
+        rsync_opts:
+          - "--exclude=experiments/"
+          - "--exclude=logs/"
+          - "--exclude=experiments-final/"
+          - "--exclude=stats/"
+
+    - name: Remove experiments and logs directory
+      block:
+        - name: Remove directory
+          ansible.builtin.file:
+            path: "{{ remote_capbot_path }}/{{ item }}"
+            state: absent
+          loop:
+            - experiments
+            - logs
+
+        - name: Recreate directory
+          ansible.builtin.file:
+            path: "{{ remote_capbot_path }}/{{ item }}"
+            state: directory
+            mode: '0755'
+          loop:
+            - experiments
+            - logs
+

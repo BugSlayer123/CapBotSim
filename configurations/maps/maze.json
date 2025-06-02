@@ -1,0 +1,55 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "bots": [
+    {"x": 50, "y": 50, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 100, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 150, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 200, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 250, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 300, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 350, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 400, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 450, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 500, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+
+    {"x": 50, "y": 600, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 650, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 700, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 750, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 800, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 850, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 900, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 950, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 1000, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0},
+    {"x": 50, "y": 1050, "mass": 2, "width": 3, "height": 3, "rotation": 0, "data": 0}
+  ],
+  "obstacles": [
+    {"x": 200, "y": 0, "width": 20, "height": 400, "mass": 500, "rotation": 0},
+    {"x": 200, "y": 600, "width": 20, "height": 480, "mass": 500, "rotation": 0},
+
+    {"x": 400, "y": 200, "width": 20, "height": 800, "mass": 500, "rotation": 0},
+    {"x": 600, "y": 0, "width": 20, "height": 300, "mass": 500, "rotation": 0},
+    {"x": 600, "y": 500, "width": 20, "height": 580, "mass": 500, "rotation": 0},
+
+    {"x": 800, "y": 400, "width": 20, "height": 700, "mass": 500, "rotation": 0},
+    {"x": 1000, "y": 400, "width": 20, "height": 300, "mass": 500, "rotation": 0},
+    {"x": 1000, "y": 450, "width": 50, "height": 50, "mass": 500, "rotation": 0},
+    {"x": 1050, "y": 450, "width": 50, "height": 50, "mass": 500, "rotation": 0},
+    {"x": 1100, "y": 450, "width": 50, "height": 50, "mass": 500, "rotation": 0},
+    {"x": 1000, "y": 550, "width": 50, "height": 50, "mass": 500, "rotation": 0},
+    {"x": 1050, "y": 550, "width": 50, "height": 50, "mass": 500, "rotation": 0},
+    {"x": 1100, "y": 550, "width": 50, "height": 50, "mass": 500, "rotation": 0},
+
+    {"x": 1200, "y": 100, "width": 20, "height": 500, "mass": 500, "rotation": 0},
+    {"x": 1400, "y": 300, "width": 20, "height": 700, "mass": 500, "rotation": 0},
+
+    {"x": 1600, "y": 0, "width": 20, "height": 440, "mass": 500, "rotation": 0},
+    {"x": 1600, "y": 640, "width": 20, "height": 440, "mass": 500, "rotation": 0},
+
+    {"x": 1800, "y": 200, "width": 20, "height": 400, "mass": 500, "rotation": 0},
+    {"x": 1800, "y": 800, "width": 20, "height": 280, "mass": 500, "rotation": 0}
+  ],
+  "station":  {"x": 50, "y": 540, "mass": 500, "width": 20, "height": 20},
+  "target_station": {"x": 1050, "y": 525, "mass": 500, "width": 20, "height": 20, "data": 2}
+}

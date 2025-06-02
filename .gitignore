@@ -1,0 +1,17 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/.idea/
+/logs/*
+!/logs/.gitkeep
+/experiments/*
+!/experiments/.gitkeep
+
+stats/target/
+stats/*.dat
+stats/*.png
